@@ -2,7 +2,7 @@
 lock "~> 3.14.1"
 
 set :application, "ecommerce"
-set :repo_url, "git@github.com:username/myapp.git"
+set :repo_url, "git@github.com:Bouafia19/ecommerce.git" 
 
 # Deploy to the user's home directory
 set :deploy_to, "/home/deploy/#{fetch :application}"
